@@ -1,0 +1,11 @@
+App(
+    appid="custom_evil_twin_pro",
+    name="Evil Twin WiFi",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="evil_twin_app",
+    requires=["gui"],
+    stack_size=2 * 1024,
+    fap_category="GPIO",
+    fap_version="1.0",
+    fap_description="ESP32 WiFi Evil Twin Controller",
+)
